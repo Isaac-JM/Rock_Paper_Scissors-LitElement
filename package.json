@@ -1,0 +1,22 @@
+{
+  "name": "rock-paper-scissors",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "mocha --require @babel/register --require esm 'test/**/*.spec.js'",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vaadin/router": "^1.7.5",
+    "lit": "^3.1.4"
+  },
+  "devDependencies": {
+    "extract-loader": "^5.1.0",
+    "lit-scss-loader": "^2.0.1",
+    "sass": "^1.77.6",
+    "vite": "^5.3.1"
+  }
+}

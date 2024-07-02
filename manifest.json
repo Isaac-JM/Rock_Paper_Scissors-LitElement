@@ -1,0 +1,30 @@
+{
+    "name": "Rock_Paper_Scissors",
+    "short_name": "Rock_Paper_Scissors",
+    "theme_color": "#ffe08a",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "screenshots": [
+        {
+            "src": "/src/assets/piedra-papel-tijeras.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/src/assets/piedra-papel-tijeras.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "form_factor": "narrow"
+        }
+    ],
+    "icons": [
+        {
+           "src": "/src/assets/piedra-papel-tijeras.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
